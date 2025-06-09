@@ -49,7 +49,7 @@ function mostraProdotti(prodotti) {
         bottone.setAttribute('data-id', prodotto.id);
         
         var immagineCuore = document.createElement('img');
-        immagineCuore.src = 'images/cuorevuoto.png';
+        immagineCuore.src = 'cuorevuoto.png';
         bottone.appendChild(immagineCuore);
         
         prodottoDiv.appendChild(bottone);
