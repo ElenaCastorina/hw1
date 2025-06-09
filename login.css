@@ -1,0 +1,125 @@
+
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+#logo {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#logo img {
+  max-width: 200px;
+}
+
+
+main.login {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 450px;
+  width: 90%;
+  text-align: center;
+}
+
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.error {
+  background-color: #e22134;
+  padding: 14px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+
+form {
+  border-bottom: 1px solid #d9dadc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+.username,
+.password {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+.login-btn input[type="submit"] {
+  border-radius: 50px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ffb9b9c5;
+  border: none;
+}
+
+.login-btn input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #c49999;
+}
+
+
+.signup {
+  margin: 10px 0;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.signup-btn-container {
+  text-align: center;
+}
+
+.signup-btn {
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid #616467;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #616467;
+}
+
+.signup-btn:hover {
+  background-color: #616467;
+  color: #fff;
+}
